@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="author" content="Иван Агеев">
+  <meta name="description" content="Тестовое задание">
+  <meta name="keywords" content="">
+
+	<title>HTC-frontend</title>
+
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+	<link type="text/css" rel="stylesheet" href="css/jquery.jscrollpane.css">
+	<link type="text/css" rel="stylesheet" href="css/main.css">	
+</head>
+
+<body>
+	<div class="background">
+
+		<div class="wrapper">
+
+			<nav class="tabs-titles">  
+				<div class="tabs-titles-wrap">
+					<div class="tab tab-profile tab_active">Профиль</div>
+					<div class="tab tab-usersfriends">Друзья пользователя</div>
+				</div>
+			</nav>
+
+			<main class="tabs-content">
+				<div class="tabs-content-wrap">
+
+					<div class="tab-content tab-content-profile tab-content_active">
+
+						<div class="block_position_left">
+							<div class="block-avatar">
+							</div>
+							<button class="button-addfriends">Добавить в друзья</button>
+							<button class="button-addinterest">Добавить интерес</button>
+							<input class="input-addinterest" placeholder="Укажите интерес" maxLength="22">
+						</div>
+											
+						<div class="block_position_right">
+							<input type="text" class="input-user-name" value="Виталя Гора" maxlength="18"> 
+							<div class="user-city">г.Нижние Шахты</div> 
+
+							<div class="block-user-data">
+								<div class="block-user-keys">
+									<div class="user-maritalstatus">Семейное положение</div>
+									<div class="user-phone">Телефон</div>
+									<div class="user-email">E-mail</div>
+									<div class="user-interests">Интересы</div>
+								</div>
+
+								<div class="block-user-value">
+									<div class="user-maritalstatus-value">холост</div>
+									<input type="tel" class="input-user-phone-value" value="+7 (440) 554-32-12">
+									<input type="email" class="input-user-email-value" value="vitalya@gora.ru" size="64" maxLength="64">
+								</div>
+							</div>
+
+							<div class="block-user-interests">
+								<div class="user-interest">музыка</div>
+								<div class="user-interest">компьютеры</div>
+								<div class="user-interest">радио</div>
+							</div>
+						</div>
+					 
+
+					</div>
+					<div class="tab-content tab-content-friends">
+						<div class="block-content-friends">
+							<div class="block-user-friend">
+								<img src="img/portrait/001.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Лев Бронштейн</div>
+									<div class="user-friend-city">г. Ханты-Мансийск</div>
+									<div class="user-friend-status">Online</div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/002.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Находка Капитал</div>
+									<div class="user-friend-city">г. Усть-Бельск</div>
+									<div class="user-friend-status"></div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/003.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Яндекс Петренко</div>
+									<div class="user-friend-city">г. Пермь</div>
+									<div class="user-friend-status"></div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/004.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Успех Возможностей</div>
+									<div class="user-friend-city">г. Радонеж</div>
+									<div class="user-friend-status">Online</div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/005.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Инна Нашлась</div>
+									<div class="user-friend-city">г. Омск</div>
+									<div class="user-friend-status">Online</div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/006.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Алла Подольская</div>
+									<div class="user-friend-city">г. Петропавловск-Камчатский</div>
+									<div class="user-friend-status">Online</div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/007.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Майкл Сидоров</div>
+									<div class="user-friend-city">г. Екатеринбург</div>
+									<div class="user-friend-status"></div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/008.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Лиза Сметана</div>
+									<div class="user-friend-city">г. Архангельск</div>
+									<div class="user-friend-status">Online</div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/009.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Ганс Фюрер</div>
+									<div class="user-friend-city">г. Франкфурт</div>
+									<div class="user-friend-status">Online</div>
+								</div>
+							</div>
+							<div class="block-user-friend">
+								<img src="img/portrait/010.png" alt="" class="user-friend-avatar">
+								<div class="user-friend-data">
+									<div class="user-friend-name">Анна Шварцвальд</div>
+									<div class="user-friend-city">г. Одесса</div>
+									<div class="user-friend-status"></div>
+								</div>
+							</div>
+						</div>
+					</div>  
+				</div>
+			</main>
+				
+		</div>
+	</div>
+</body>
+
+<script src="src/lib/jquery.3.3.1.min.js"></script>
+<script src="src/lib/jquery.mousewheel.js"></script>
+<script src="src/lib/jquery.jscrollpane.js"></script>	
+	
+<script src="src/js/validate-save-input-value.js"></script>
+<script src="src/js/switch-tabs.js"></script>
+<script src="src/js/change-interest.js"></script>
+<script src="src/js/scrollbar.js"></script>
+</html>
